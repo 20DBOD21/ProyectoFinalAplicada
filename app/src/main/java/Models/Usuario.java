@@ -12,6 +12,13 @@ public class Usuario {
     public Usuario() {
     }
 
+    //CONSTRUCTOR PARA VALIDACIÓN
+    public Usuario(String nickname, String password, String rol) {
+        this.nickname = nickname;
+        this.password = password;
+        this.rol = rol;
+    }
+
     public Usuario(String nombre, String apellido, String nickname, String password, String email, String rol) {
         this.nombre = nombre;
         this.apellido = apellido;

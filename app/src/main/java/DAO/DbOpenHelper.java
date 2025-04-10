@@ -39,6 +39,8 @@ public class DbOpenHelper extends SQLiteOpenHelper {
         //SIN DEPENDENCIA
         db.execSQL("DROP TABLE IF EXISTS Categorias");
         db.execSQL("DROP TABLE IF EXISTS Usuarios");
+
+        onCreate(db);
     }
 
     private String tablaUsuarios() {
