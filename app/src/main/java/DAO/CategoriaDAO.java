@@ -59,4 +59,8 @@ public class CategoriaDAO {
         }
         return rpta;
     }
+
+    public List<Categoria> getCategoriaList() {
+        return categoriaList;
+    }
 }

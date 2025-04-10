@@ -41,18 +41,16 @@ public class WelcomeActivity extends AppCompatActivity {
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(WelcomeActivity.this, DashBoardActivity.class);
+                Intent intent = new Intent(WelcomeActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
         };
-
         Timer timer = new Timer();
-        timer.schedule(timerTask, 3000);
+        timer.schedule(timerTask, 2000);
 
         Animation animUp = AnimationUtils.loadAnimation(this, R.anim.anim_up_logo);
         Animation animDown = AnimationUtils.loadAnimation(this, R.anim.anim_down_logo);
-
         iv_logo.setAnimation(animUp);
         tv_titulo.setAnimation(animDown);
     }

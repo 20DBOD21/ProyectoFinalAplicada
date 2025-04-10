@@ -65,4 +65,8 @@ public class MovimientoDAO {
         }
         return rpta;
     }
+
+    public List<Movimiento> getMovimientoList() {
+        return movimientoList;
+    }
 }

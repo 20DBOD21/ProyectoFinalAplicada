@@ -1,6 +1,7 @@
 package Models;
 
 public class Categoria {
+    protected int id;
     protected String nombre;
     protected String descripcion;
     protected String icono;
@@ -18,6 +19,10 @@ public class Categoria {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.icono = icono;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getNombre() {

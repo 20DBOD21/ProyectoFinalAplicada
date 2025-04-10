@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemPerfil"
+        android:title="Configurar Perfíl"/>
+    <item android:id="@+id/itemReporte"
+        android:title="Generar Reportes"/>
+    <item android:id="@+id/itemSoporte"
+        android:title="Contactar Soporte"/>
+    <item android:id="@+id/itemSalir"
+        android:title="Salir de la App"/>
+</menu>
